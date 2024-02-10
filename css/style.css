@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    .bloc{
+        width: 500px;
+        height: 1000px;
+        position: relative;
+        border: 1px solid yellow;
+    }
+.box{
+    position: sticky;
+    top: 0;
+    right: 0;        
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 20px 0;
+}
+.box2{
+    position: absolute;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px 0;
+}
+.box3{
+    position: absolute;
+    width: 200px;    
+    height: 200px;
+    background-color: fuchsia;
+    margin: 20px 0;
+}
+.box4{
+    position: absolute;
+    width: 200px;    
+    height: 200px;
+    background-color: green;
+    margin: 20px 0;
+}
